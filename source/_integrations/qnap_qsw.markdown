@@ -22,7 +22,7 @@ ha_integration_type: integration
 ha_dhcp: true
 ---
 
-This integration interacts with the local API of [QNAP QSW managed switches](https://www.qnap.com/en/product/series/qsw-managed-switches).
+This integration interacts with the local API of many [QNAP QSW managed switches](https://www.qnap.com/en/product/series/qsw-managed-switches). Some QNAP QSW switches use a non-supported version of the API and are incompatible with this integration (e.g., QNAP QSW-M2116P-2T2S).
 
 {% include integrations/config_flow.md %}
 
